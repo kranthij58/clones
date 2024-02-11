@@ -269,11 +269,11 @@ body {
 }
 @media (min-width:301px) and (max-width:449px){
   .hamburgermenu {
-    width: 15px;
+    width: 20px;
     margin-right: 6px;
   }
   .youtubelogo {
-    width: 68px;
+    width: 80px;
   }
   .rightsection{
     margin-left: 4px;
@@ -281,7 +281,7 @@ body {
     flex-shrink: 1;
   }
   .searchicon {
-    width: 25px;
+    width: 22px;
     
   }
   .searchdiv{
@@ -302,7 +302,7 @@ body {
 }
 .notifi{
   font-size: 13px;
-  top: -4px;
-  right: -6px;
+  top: -2px;
+  right: -3px;
 }
 }
