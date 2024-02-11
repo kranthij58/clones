@@ -1,0 +1,113 @@
+.inner{
+   width: 100%;
+    margin-bottom: 0px ;
+   
+    
+   
+}
+.homescreen{
+    padding-top:75px;
+    padding-left:160px;
+    z-index: 40;
+    background-color:  #F5F5F5;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 18px;
+    padding-bottom: 80px;
+    
+}
+
+.thumbnail{
+    width: 100%;
+    background-color: black;
+    
+}
+.profilepictures{
+    width:45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    margin-top:5px;
+}
+
+.videotitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin:0px;
+    font-weight: medium;
+    margin-bottom: 7px;
+    
+}
+.profilepicture{
+    margin-right:6px;
+}
+.channelname{
+    margin:0px;
+    font-size: small;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 4px;
+    color: rgb(154, 154, 154);
+
+}
+.views{
+    margin:0px;
+    font-size: smaller;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 4px;
+    color: rgb(154, 154, 154);
+}
+.time{
+    background-color: rgb(28, 27, 27);
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    border:none;
+    font-size: small;
+    padding-left: 3px;
+    padding-right: 3px;
+    position: absolute;
+    right:6px;
+    bottom: 13px;
+    border-radius: 2px;
+    z-index: 32;
+}
+.videoreview{
+    position: relative;
+}
+@media(min-width:0px)and (max-width:600px){
+    .homescreen{
+        padding-left: 10px;
+        grid-template-columns: 1fr;
+    }
+}
+@media(min-width:601px) and (max-width:750px){
+    .homescreen{
+        padding-left:10px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width:751px) and (max-width:1000px){
+    .homescreen{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: 130px;
+    }
+    .sidebar{
+        width:120px;
+    }
+    .sidebaricons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .iconmane{
+        margin:0px;
+        font-size: small;
+    }
+.home,.explore,.music,.library,.subscriptions,.originals{
+    width:25px;
+}
+
+}
